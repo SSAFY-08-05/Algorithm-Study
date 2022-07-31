@@ -1,7 +1,7 @@
 # 💻 Algorithm Study / Regular Class Review
 
 ## 📄 How To Study
-- 일주일마다 인당 1~2문제 공유, 취합된 5~10문제를 각자 풀이
+- 일주일마다 인당 1-2문제 공유, 취합된 5~10문제를 각자 풀이
 - 매주의 문제를 read.me의 situation board에 표시
 - 각자 해결한 문제를 표시
 - 매주 수요일 오후 10시에 온라인으로 스터디 진행
