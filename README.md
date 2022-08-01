@@ -8,6 +8,10 @@
 - 50분간 각자의 코드 발표 + 리뷰
 - [Github 활용법](./docs)
 
+## 풀이 확인 및 업로드 방법
+- situation board에 주어진 문제를 풀고 readme를 수정하여 자신의 위치에 🟩로 표시
+- 업로드 시 /Week1/백준_번호/이름/Main.java 로 업로드
+
 ## 🧑🏽‍💻 Situation board
 - 주어진 문제를 해결했다면 🟩로 표시
 - 1주차 보드
