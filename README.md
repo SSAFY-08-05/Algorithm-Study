@@ -21,7 +21,7 @@
 | 백준     | 17609    |2022-07-31|[회문](https://www.acmicpc.net/problem/17609) |🟩|   |   |   |   |  
 | 백준     | 11053     |2022-07-31|[가장 긴 증가하는 부분 수열](https://www.acmicpc.net/problem/11053) |   |   |   |   |   |  
 | 백준     | 1316 |2022-08-01|[그룹 단어 체커](https://www.acmicpc.net/problem/1316) |   |   |🟩|   |   |  
-| 백준     | 8958 |2022-08-01|[OX퀴즈](https://www.acmicpc.net/problem/8958) |   |   |   |   |   |  
+| 백준     | 8958 |2022-08-01|[OX퀴즈](https://www.acmicpc.net/problem/8958) |   |   |🟩|   |   |  
 | 백준     | 9996 |2022-08-01|[한국이 그리울땐 서버에 접속하지](https://www.acmicpc.net/problem/9996) |   |   |   |   |   |  
 
 
