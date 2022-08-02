@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		int tc = sc.nextInt();
+		
+		String str = sc.next();
+		String[] pattern = str.split("");
+		
+		for(int i = 0; i < tc; i++) {
+			String str1 = sc.next();
+			String[] file = str1.split("");
+			
+			if(pattern[0].equals(file[0]) && pattern[pattern.length-1].equals(file[file.length-1])) {
+				System.out.println("DA");
+			}
+			else {
+				System.out.println("NE");
+			}
+		}
+
+	}
+
+}
