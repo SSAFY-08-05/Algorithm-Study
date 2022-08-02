@@ -1,0 +1,30 @@
+package week01;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		int tc = sc.nextInt();
+		
+		for(int i = 0; i < tc; i++) {
+			String str = sc.next();
+			String[] quiz = str.split("");
+						
+			int count = 0;
+			int sum = 0;
+			
+			for(int j = 0; j < quiz.length; j++) {
+				if(quiz[j].equals("O")) {
+					count += 1;
+					sum += count;
+				}else {
+					count = 0;
+				}
+			}			
+			System.out.println(sum);			
+		}
+	}
+}
