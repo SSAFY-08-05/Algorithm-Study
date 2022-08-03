@@ -18,7 +18,7 @@ public class Main {
 	                front = i;//비교할 단어의 제일 앞 위치
 	                for(int j = i+1; j < word.length; j++) {
 	                    if(word[i].equals(word[j]) && j-front ==1){//동일한 문자가 있고 그 위치가 서로 1차이
-	                        front = j; //비교할 단어의 제일 앞 위치 최신화
+	                        front = j; //비교할 단어의 제일 앞 위치 최신화 ex) bbb가 나올 때 첫번째와 마지막이 2차이라 그룹이 아니라 인식할 수 있음
 	                    }
 	                    else if(word[i].equals(word[j]) && j-front > 1) {//동일한 문자이나 그 위치의 차이가 1을 초과할 떼ㅐ
 	                        count-=1;// 그룹단어가 아니므로 단어수에서 -1
