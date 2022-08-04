@@ -19,23 +19,24 @@
 
 | 문제 출처| 번호   |제안자  | 난이도     | 문제      | 서영탁  | 김윤미  | 박성완  | 정수민  | 최종욱  |  
 | :---------: | :---------:  | :---------:| :---------: | :---------: | :--------: | :--------: | :--------: | :--------: | :--------: |  
-| 백준     | 17609  |  |골드 V|[회문](https://www.acmicpc.net/problem/17609) |   |   |   |   |   |  
-| 백준     | 11053  |   |실버 II|[가장 긴 증가하는 부분 수열](https://www.acmicpc.net/problem/11053)|   |   |   |   |   |  
-| 백준     | 1316| |실버 V|[그룹 단어 체커](https://www.acmicpc.net/problem/1316) |   |   |   |   |   |
-| 백준     | 8958||브론즈 II|[OX퀴즈](https://www.acmicpc.net/problem/8958) |   |   |   |   |   | 
-| 백준     | 9996| |실버 III|[한국이 그리울땐 서버에 접속하지](https://www.acmicpc.net/problem/9996) |   |   |   |   |   | 
-| 백준     | 9996| |실버 III|[한국이 그리울땐 서버에 접속하지](https://www.acmicpc.net/problem/9996) |   |   |   |   |   |
-| 백준     | 9996| |실버 III|[한국이 그리울땐 서버에 접속하지](https://www.acmicpc.net/problem/9996) |   |   |   |   |   |
+| 백준     | 2250  |서영탁|골드 II   |[트리의 높이와 너비](https://www.acmicpc.net/problem/2250)             |   |   |   |   |   |  
+| 백준     | 5430  |박성완|골드 V   |[AC](https://www.acmicpc.net/problem/5430)                             |   |   |   |   |   |  
+| 백준     | 1406  |김윤미|실버 II   |[에디터](https://www.acmicpc.net/problem/1406)                         |   |   |   |   |   |  
+| 백준     | 14713  |최종욱|실버 II   |[앵무새](https://www.acmicpc.net/problem/14713)                        |   |   |   |   |   |  
+| 백준     | 1966  |정수민|실버 III   |[프린터 큐](https://www.acmicpc.net/problem/1966)                       |   |   |   |   |   |  
+| 백준     | 9012  |서영탁|실버 IV   |[괄호](https://www.acmicpc.net/problem/9012)                            |   |   |   |   |   |  
+| 백준     | 1021  |박성완|실버 IV   |[회전하는 큐](https://www.acmicpc.net/problem/1021)                     |   |   |   |   |   |  
 
 ### 1주차 보드 (22-07-31 ~ 22-08-03)
 
 | 문제 출처| 번호    | 제안자 | 난이도     | 문제      | 서영탁  | 김윤미  | 박성완  | 정수민  | 최종욱  |  
 | :---------: | :---------:| :---------: | :---------: | :---------: | :--------: | :--------: | :--------: | :--------: | :--------: |  
-| 백준     | 17609   | |골드 V|[회문](https://www.acmicpc.net/problem/17609) |🟩|🟩 |🟩|🟩|   |  
-| 백준     | 11053    | |실버 II|[가장 긴 증가하는 부분 수열](https://www.acmicpc.net/problem/11053) |🟩|🟩   |🟩|🟩|   |  
-| 백준     | 1316 ||실버 V|[그룹 단어 체커](https://www.acmicpc.net/problem/1316) |🟩|🟩  |🟩|   | 🟩  |  
-| 백준     | 8958 ||브론즈 II|[OX퀴즈](https://www.acmicpc.net/problem/8958) |🟩|🟩  |🟩|🟩|  🟩 |  
-| 백준     | 9996 ||실버 III|[한국이 그리울땐 서버에 접속하지](https://www.acmicpc.net/problem/9996) |🟩|🟩  |🟩 |🟩| 🟩  |  
+| 백준     | 17609  |서영탁|골드 V   |[회문](https://www.acmicpc.net/problem/17609)                          |🟩 |🟩 |🟩|🟩|   |  
+| 백준     | 11053  |박성완|실버 II  |[가장 긴 증가하는 부분 수열](https://www.acmicpc.net/problem/11053)     |🟩|🟩  |🟩|🟩|   |  
+| 백준     | 9996   |김윤미|실버 III |[한국이 그리울땐 서버에 접속하지](https://www.acmicpc.net/problem/9996) |🟩 |🟩 |🟩|🟩|🟩| 
+| 백준     | 1316   |최종욱|실버 V   |[그룹 단어 체커](https://www.acmicpc.net/problem/1316)                 |🟩 |🟩  |🟩|  |🟩|  
+| 백준     | 8958   |정수민|브론즈 II|[OX퀴즈](https://www.acmicpc.net/problem/8958)                          |🟩|🟩 |🟩|🟩|🟩|  
+ 
 
 
 
