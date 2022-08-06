@@ -1,0 +1,74 @@
+package ssafy.week02;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.StringTokenizer;
+
+public class Main {
+
+	public static void main(String[] args) throws IOException {
+		
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		int type = Integer.parseInt(br.readLine());
+		Queue[] qlist = new Queue[type];
+		for(int i=0;i<type;i++) {
+			qlist[i] = new LinkedList<String>();
+			StringTokenizer st = new StringTokenizer(br.readLine());
+			
+			while(st.hasMoreTokens()) {
+				qlist[i].add(st.nextToken());
+			}
+		}
+		
+		StringTokenizer st = new StringTokenizer(br.readLine());
+		
+		int v1 = 0;//word가 만들 수 있는 단어인지 확인 기본 - 만들 수 있다
+		while(st.hasMoreTokens()) {
+			int v2 = 1;    //queue에 값이 있는지 확인 기본 - queue 값이 없다.
+			String word = st.nextToken();
+			for(int i=0;i<type;i++) {
+				if(!qlist[i].isEmpty()) {//queue값이 비어있지않으면 진행
+				if(qlist[i].peek().equals(word)) {//각 queue의 첫번째 단어들이 word 속 단어 확인
+					qlist[i].poll();				//queue의 첫번째 값 제거
+					v2 = 0;							// 값이 있었다는 의미로 0변경
+					break;
+				}
+				}
+			}
+			
+			
+			
+			
+			if(v2 == 1) { //queue와 맞는 값이 없을떄
+				v1 = 1; //word 만들 수 없는 단어
+				break;
+			}	
+		}
+		
+		for(int i=0;i<type;i++) {
+			if(!qlist[i].isEmpty()) { //word확인이 끝났는데 queue에 값이 남아있는 경우
+				v1 = 1;
+			}
+		}
+		
+		if(v1 == 1) {
+			System.out.println("Impossible");
+		}
+		else {
+			System.out.println("Possible");
+		}
+	}
+}
+
+
+		
+		
+		
+		
+		
+
+
+
