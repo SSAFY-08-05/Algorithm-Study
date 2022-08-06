@@ -22,7 +22,7 @@
 | 백준     | 2250  |서영탁|골드 II   |[트리의 높이와 너비](https://www.acmicpc.net/problem/2250)             |   |   |   |   |   |  
 | 백준     | 5430  |박성완|골드 V   |[AC](https://www.acmicpc.net/problem/5430)                             |   |   |   |   |   |  
 | 백준     | 1406  |김윤미|실버 II   |[에디터](https://www.acmicpc.net/problem/1406)                         |   |   |   |   |   |  
-| 백준     | 14713  |최종욱|실버 II   |[앵무새](https://www.acmicpc.net/problem/14713)                        |   |   |   |   |   |  
+| 백준     | 14713  |최종욱|실버 II   |[앵무새](https://www.acmicpc.net/problem/14713)                        |   |   |   |   |  🟩  |  
 | 백준     | 1966  |정수민|실버 III   |[프린터 큐](https://www.acmicpc.net/problem/1966)                       |🟩|   |   |   |   |  
 | 백준     | 9012  |서영탁|실버 IV   |[괄호](https://www.acmicpc.net/problem/9012)                            |🟩|   |🟩|   |   |  
 | 백준     | 1021  |박성완|실버 IV   |[회전하는 큐](https://www.acmicpc.net/problem/1021)                     |🟩|   |   |   |   |  
