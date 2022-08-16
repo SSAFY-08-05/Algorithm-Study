@@ -23,7 +23,7 @@
 | 백준 | 16987 | 김윤미 | 실버 I | [계란으로 계란치기](https://www.acmicpc.net/problem/16987) |🟩|🟩|  |  |  |
 | 백준 | 2529 | 최종욱 | 실버 II | [부등호](https://www.acmicpc.net/problem/2529)            |🟩|🟩|🟩|  |  |
 | 백준 | 1051 | 정수민 | 실버 IV | [숫자 정사각형](https://www.acmicpc.net/problem/1051)     |🟩|🟩|🟩|🟩|🟩|
-| 백준 | 11399 | 박성완 | 실버 IV | [ATM](https://www.acmicpc.net/problem/11399)            |🟩|🟩|🟩|  |  |
+| 백준 | 11399 | 박성완 | 실버 IV | [ATM](https://www.acmicpc.net/problem/11399)            |🟩|🟩|🟩|  |🟩|
 
 ### 2주차 보드 (22-08-04 ~ 22-08-10)
 
