@@ -21,7 +21,7 @@
 | 백준 | 16985 | 김윤미 | 골드 III | [Maaaaaaaaaze](https://www.acmicpc.net/problem/16985) |  |  |  |  |  |
 | 백준 | 2667 | 박성완 | 실버 I | [단지번호붙이기](https://www.acmicpc.net/problem/2667)    |  |  |  |  |  |
 | 백준 | 16943 | 정수민 | 실버 I | [숫자 재배치](https://www.acmicpc.net/problem/16943)     |  |  |  |  |  |
-| 백준 | 2606 | 최종욱 | 실버 III | [바이러스](https://www.acmicpc.net/problem/2606)        |  |  |  |  |  |
+| 백준 | 2606 | 최종욱 | 실버 III | [바이러스](https://www.acmicpc.net/problem/2606)        |🟩|  |  |  |  |
 
 
 ### 3주차 보드 (22-08-11 ~ 22-08-17)
