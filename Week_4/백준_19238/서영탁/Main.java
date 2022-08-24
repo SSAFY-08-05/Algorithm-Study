@@ -110,30 +110,27 @@ public class Main {
         visited[taxi.x][taxi.y] = true;
 
         while(!pq.isEmpty()){
-            int size = pq.size();
-            while(size-->0){
-                Pos p = pq.poll();
-                int x = p.x;
-                int y = p.y;
-                int dist = p.dist;
+            Pos p = pq.poll();
+            int x = p.x;
+            int y = p.y;
+            int dist = p.dist;
 
-                if(passengers[x][y] != 0){
-                    passenger = new Pos(passengers[x][y], x, y, dist);
-                    taxi = new Pos(x, y);
-                    passengers[x][y] = 0;
-                    return true;
-                }
+            if(passengers[x][y] != 0){
+                passenger = new Pos(passengers[x][y], x, y, dist);
+                taxi = new Pos(x, y);
+                passengers[x][y] = 0;
+                return true;
+            }
 
-                for(int i = 0; i < 4; i++){
-                    int nx = x + dx[i];
-                    int ny = y + dy[i];
+            for(int i = 0; i < 4; i++){
+                int nx = x + dx[i];
+                int ny = y + dy[i];
 
-                    if(!isRange(nx, ny)) continue;
+                if(!isRange(nx, ny)) continue;
 
-                    if(!visited[nx][ny] && map[nx][ny] == 0){
-                        visited[nx][ny] = true;
-                        pq.offer(new Pos(nx, ny, dist+1));
-                    }
+                if(!visited[nx][ny] && map[nx][ny] == 0){
+                    visited[nx][ny] = true;
+                    pq.offer(new Pos(nx, ny, dist+1));
                 }
             }
         }
@@ -149,29 +146,26 @@ public class Main {
         Pos targetDestination = destinations[num];
 
         while(!q.isEmpty()){
-            int size = q.size();
-            while(size-->0){
-                Pos p = q.poll();
-                int x = p.x;
-                int y = p.y;
-                int dist = p.dist;
+            Pos p = q.poll();
+            int x = p.x;
+            int y = p.y;
+            int dist = p.dist;
 
-                if(x == targetDestination.x && y == targetDestination.y){
-                    destination = new Pos(x, y, dist);
-                    taxi = new Pos(x, y);
-                    return true;
-                }
+            if(x == targetDestination.x && y == targetDestination.y){
+                destination = new Pos(x, y, dist);
+                taxi = new Pos(x, y);
+                return true;
+            }
 
-                for(int i = 0; i < 4; i++){
-                    int nx = x + dx[i];
-                    int ny = y + dy[i];
+            for(int i = 0; i < 4; i++){
+                int nx = x + dx[i];
+                int ny = y + dy[i];
 
-                    if(!isRange(nx, ny)) continue;
+                if(!isRange(nx, ny)) continue;
 
-                    if(!visited[nx][ny] && map[nx][ny] == 0){
-                        visited[nx][ny] = true;
-                        q.offer(new Pos(nx, ny, dist+1));
-                    }
+                if(!visited[nx][ny] && map[nx][ny] == 0){
+                    visited[nx][ny] = true;
+                    q.offer(new Pos(nx, ny, dist+1));
                 }
             }
         }
