@@ -20,7 +20,7 @@
 | 백준 | 14502 | 서영탁 | 골드 IV | [연구소](https://www.acmicpc.net/problem/14502)         |  |  |  |  |  |
 | 백준 | 17070 | 김윤미 | 골드 V  | [파이프 옮기기 1](https://www.acmicpc.net/problem/17070) |🟩|  |  |  |  |
 | 백준 | 9934  | 정수민 | 실버 I  | [완전 이진 트리](https://www.acmicpc.net/problem/9934)   |  |  |🟩|  |  |
-| 백준 | 14926 | 박성완 | 실버 I  | [Not Equal](https://www.acmicpc.net/problem/14926)      |  |  |🟩|  |  |
+| 백준 | 14926 | 박성완 | 실버 I  | [Not Equal](https://www.acmicpc.net/problem/14926)      |🟩|  |🟩|  |  |
 | 백준 | 2805  | 최종욱 | 실버 II | [나무 자르기](https://www.acmicpc.net/problem/2805)      |🟩|  |🟩|  |🟩|
 
 
