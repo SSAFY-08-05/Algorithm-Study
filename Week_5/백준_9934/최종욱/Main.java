@@ -4,7 +4,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.StringTokenizer;
 
-public class BJ_9934 {
+public class Main {
 	static ArrayList<Integer>[] list;
 	static int[] node;
 	static int size;
