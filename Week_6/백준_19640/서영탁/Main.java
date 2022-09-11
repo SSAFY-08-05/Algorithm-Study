@@ -4,14 +4,13 @@ import java.util.*;
 public class Main {
 
     public static class Node implements Comparable<Node>{
-        int lineNum, d, h;
-        boolean flag;
+        int idx, d, h, lineNum;
 
-        public Node(int lineNum, int d, int h, boolean flag) {
-            this.lineNum = lineNum;
+        public Node(int idx, int d, int h, int lineNum) {
+            this.idx = idx;
             this.d = d;
             this.h = h;
-            this.flag = flag;
+            this.lineNum = lineNum;
         }
 
         @Override
@@ -46,7 +45,7 @@ public class Main {
             int d = Integer.parseInt(st.nextToken());
             int h = Integer.parseInt(st.nextToken());
 
-            q[lineNum].offer(new Node(lineNum, d, h, i == k));
+            q[lineNum].offer(new Node(i, d, h, lineNum));
             if(++lineNum == m) lineNum = 0;
         }
 
@@ -60,7 +59,7 @@ public class Main {
         while(!pq.isEmpty()){
             Node node = pq.poll();
 
-            if(node.flag) break;
+            if(node.idx == k) break;
 
             if(!q[node.lineNum].isEmpty()) pq.offer(q[node.lineNum].poll());
             ans++;
