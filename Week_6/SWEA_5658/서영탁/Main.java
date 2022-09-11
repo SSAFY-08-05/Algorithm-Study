@@ -61,3 +61,7 @@ public class Solution {
     }
  
 }
+/**
+박성완
+실제로 돌리는 로직이 좀 더 빠르네요? 제가 priorityQueue를 써서 느린건가..
+**/
