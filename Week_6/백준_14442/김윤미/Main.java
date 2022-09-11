@@ -85,3 +85,10 @@ public class Main {
         System.out.println(ans);
     }
 }
+
+/**
+서영탁
+혹시 몇초 나오시나요?
+저는 처음엔 boolean[][][] visited를 3차원으로 했다가 int[][] visited 2차원으로 변경하였습니다.
+이미 1번의 벽을 깨고 들어온 곳에 2번의 벽을 깨고 들어오는 경우는 볼 필요가 없다고 생각해서 제외했습니다.
+**/
