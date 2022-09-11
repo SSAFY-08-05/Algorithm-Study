@@ -58,3 +58,10 @@ public class SW_5658_보물상자비밀번호_김윤미 {
         System.out.println(sb.toString());
     }
 }
+
+
+/**
+서영탁
+전반적인 풀이는 저와 비슷한 것 같습니다.
+calc() 함수에서 str을 붙일 때 저는 StringBuilder를 사용했습니다.
+**/
