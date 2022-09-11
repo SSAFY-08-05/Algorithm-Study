@@ -18,7 +18,7 @@
 | 출처 | 번호 | 제안자 | 난이도 | 문제 | 서영탁 | 김윤미 | 박성완 | 정수민 | 최종욱 |
 | :---------: | :---------:  | :---------:| :---------: | :---------: | :--------: | :--------: | :--------: | :--------: | :--------: |  
 | 백준 | 14442 | 김윤미 | 골드 III | [벽부수고 이동하기 2](https://www.acmicpc.net/problem/14442)         |🟩|🟩|  |  |🟩|
-| SWEA | 17070 | 박성완 | 모의 A형  | [보물상자 비밀번호](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRUN9KfZ8DFAUo&) |🟩|🟩|  |  |  |
+| SWEA | 17070 | 박성완 | 모의 A형  | [보물상자 비밀번호](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRUN9KfZ8DFAUo&) |🟩|🟩|🟩|  |  |
 | 백준 | 19640  | 정수민 | 골드 IV  | [화장실의 규칙](https://www.acmicpc.net/problem/19640)   |🟩|🟩|🟩|🟩|🟩|
 
 
