@@ -83,3 +83,9 @@ public class Main {
         System.out.println(cnt);
     }
 }
+
+/**
+서영탁
+저도 똑같이 풀었는데 boolean isDeca로 두는 것보다 데카의 번호를 int로 두는게 조금 더 빠르더라고요.
+왜 그런지는 잘 모르겠습니다.
+**/
