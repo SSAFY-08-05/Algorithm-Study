@@ -47,5 +47,4 @@ public class Main {
 
         if(x != y) parent[y] = x;
     }
-
 }
