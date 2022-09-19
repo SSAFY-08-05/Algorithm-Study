@@ -44,11 +44,12 @@ public class Main {
     }
 
     public static void backtracking(int idx, int cnt){
-        if(cnt == 2){
+        if(cnt == 2){  // 2개의 돌을 두고 상대 돌을 먹을 수 있는지 확인
             check();
             return;
         }
 
+        // map 중 0(빈칸)인 좌표 선정
         for(int i = idx; i < n*m; i++){
             int x = i / m;
             int y = i % m;
@@ -66,20 +67,20 @@ public class Main {
         int x2 = selected[1] / m;
         int y2 = selected[1] % m;
 
-        map[x1][y1] = map[x2][y2] = 1;
+        map[x1][y1] = map[x2][y2] = 1;  // 내 돌 두기
 
         int sum = 0;
         visited = new boolean[n][m];
         for(int i = 0; i < n; i++){
             for(int j = 0; j < m; j++){
                 if(!visited[i][j] && map[i][j] == 2){
-                    sum += bfs(new Pos(i, j));
+                    sum += bfs(new Pos(i, j));  // 먹을 수 있는 상대 돌 개수 카운팅
                 }
             }
         }
 
         ans = Math.max(ans, sum);
-        map[x1][y1] = map[x2][y2] = 0;
+        map[x1][y1] = map[x2][y2] = 0;  // 내 돌 회수
     }
 
     public static int bfs(Pos pos){
@@ -101,11 +102,11 @@ public class Main {
 
                 if(!isRange(nx, ny)) continue;
 
-                if(map[nx][ny] == 0) flag = false;
+                if(map[nx][ny] == 0) flag = false;  // 2(상대돌) 옆에 0(빈칸)이 붙어있다면 먹을 수 없는 상태
 
                 if(!visited[nx][ny] && map[nx][ny] == 2){
                     visited[nx][ny] = true;
-                    cnt++;
+                    cnt++;  // 2(상대돌) 카운팅
                     q.offer(new Pos(nx, ny));
                 }
             }
