@@ -1,4 +1,4 @@
-//package week8.bj_1563;
+package week8.bj_1563;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -14,9 +14,13 @@ public class Main {
 		N = Integer.parseInt(br.readLine());
 		
 		dp = new long[N][7];
-		// 크게 지각 없는 경우 (0~2), 지각 하나인 경우 (3~6)으로 나눈다.
-		dp[0][0] = 1; dp[0][1] = 0; dp[0][2] = 1; dp[0][3] = 0; dp[0][4] = 0; dp[0][5] = 0; dp[0][6] = 1;
-		// ~a			~aa			~o				~a			~aa				~o			~l
+
+		// 지각 없는 경우 (0~2)
+		dp[0][0] = 1; dp[0][1] = 0; dp[0][2] = 1;
+		// ~a			~aa			~o				
+		// 지각 하나인 경우 (3~6)으로 나눈다.
+		 dp[0][3] = 0; dp[0][4] = 0; dp[0][5] = 0; dp[0][6] = 1;
+		//~a			~aa				~o			~l
 		fillDP();
 		
 		System.out.println(sumResult()%1000000);
