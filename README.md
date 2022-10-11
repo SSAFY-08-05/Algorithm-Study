@@ -18,7 +18,7 @@
 | 출처 | 번호 | 제안자 | 난이도 | 문제 | 서영탁 | 김윤미 | 박성완 | 최종욱 |
 | :---------: | :---------:  | :---------:| :---------: | :---------: | :--------: | :--------: | :--------: | :--------: |  
 | 백준 | 3190 | 서영탁 | 골드 IV  | [뱀](https://www.acmicpc.net/problem/3190)                                                                    |🟩|🟩|🟩|  |
-| SWEA | 4014 | 박성완 | 모의 A형 | [활주로 건설](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWIeW7FakkUDFAVH)  |🟩|🟩|🟩|  |
+| SWEA | 4014 | 박성완 | 모의 A형 | [활주로 건설](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWIeW7FakkUDFAVH)  |🟩|🟩|🟩|🟩|
 
 ### 10주차 보드 (22-09-29 ~ 22-10-04) (모임 시간 화요일 저녁 10시 30분으로 변경)
 | 출처 | 번호 | 제안자 | 난이도 | 문제 | 서영탁 | 김윤미 | 박성완 | 최종욱 |
