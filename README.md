@@ -23,8 +23,8 @@
 ### 12주차 보드 (22-10-12 ~ 22-10-18)
 | 출처 | 번호 | 제안자 | 난이도 | 문제 | 서영탁 | 김윤미 | 박성완 | 최종욱 |
 | :---------: | :---------:  | :---------:| :---------: | :---------: | :--------: | :--------: | :--------: | :--------: |  
-| SWEA | 2383 | 박성완 | 모의 A형 | [점심 식사시간](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5-BEE6AK0DFAVl) |🟩|  |🟩|  |
-| SWEA | 2477 | 김윤미 | 모의 A형 | [차량 정비소](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV6c6bgaIuoDFAXy)  |🟩|  |  |  |
+| SWEA | 2383 | 박성완 | 모의 A형 | [점심 식사시간](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5-BEE6AK0DFAVl) |🟩|🟩|🟩|  |
+| SWEA | 2477 | 김윤미 | 모의 A형 | [차량 정비소](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV6c6bgaIuoDFAXy)  |🟩|🟩|  |  |
 
 ### 11주차 보드 (22-10-05 ~ 22-10-11)
 | 출처 | 번호 | 제안자 | 난이도 | 문제 | 서영탁 | 김윤미 | 박성완 | 최종욱 |
