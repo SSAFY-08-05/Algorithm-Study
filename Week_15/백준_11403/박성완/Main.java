@@ -4,13 +4,14 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
-// 메모리 18488	시간 308
+// 메모리 13940	시간 128
 // 백준 11403 경로 찾기
 public class Main {
 	static int N, D[][];
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st;
+		StringBuilder sb = new StringBuilder();
 		
 		N = Integer.parseInt(br.readLine());
 		D = new int[N][N];
@@ -36,13 +37,14 @@ public class Main {
 		
 		for (int i = 0; i < N; i++) {
 			for (int j = 0; j < N; j++) {
-				if(D[i][j] >= 100_000_000) System.out.print("0 ");
-				else System.out.print("1 ");
+				if(D[i][j] >= 100_000_000) sb.append("0 ");
+				else sb.append("1 ");
 			}
-			System.out.println();
+			sb.append("\n");
 		}
-		System.out.println();
+		sb.append("\n");
 		
+		System.out.println(sb);
 		br.close();
 	}
 
